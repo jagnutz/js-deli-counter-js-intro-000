@@ -5,5 +5,5 @@ var welcome = `Welcome, ${name[i]}. You are number ${line+1} in line.`;
 return welcome
 }
 */
-console.log (${name[i]}. You are number ${line+1} in line.`)
+return ${name[i]}. You are number ${line+1} in line.`
 }
