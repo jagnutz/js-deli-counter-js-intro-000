@@ -1,6 +1,5 @@
 
 
-function takeANumber(name, katzDeline) {
-var katzDeline = []
-return `Welcome, ${name}. You are number ${katzDeliLine+1} in line.`
+function takeANumber(name,line) {
+return `Welcome, ${name}. You are number ${line+1} in line.`
 }
