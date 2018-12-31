@@ -26,7 +26,7 @@ for (i=0; i<=katzDeliLine.length; i++){
 
 function currentLine(katzDeliLine) {
   let i = 0;
-  while (i < katzDeli.length) {
+  while (i < katzDeliLine.length) {
     line.push(` `+[i+1]+`. `  + katzDeliLine[i])
     i++;
   }
